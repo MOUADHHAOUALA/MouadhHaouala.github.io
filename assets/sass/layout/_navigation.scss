@@ -1,5 +1,32 @@
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: #e14d2a;
+  background-size: cover;
+  background-position: center;
+}
+
 .navigation {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  display: inline-block;
+
+  &__logo {
+    text-transform: uppercase;
+    text-decoration: solid;
+    
+  }
+
+  &__list {
+   
+
+  }
+  &__item {
+
+  }
+
+  &__link {
+    
+  }
 }
