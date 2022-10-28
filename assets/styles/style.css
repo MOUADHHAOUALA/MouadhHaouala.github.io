@@ -1,6 +1,8 @@
-.navigation__list {
-    display: flex;
-    justify-content: space-around;
-   
+.navigatio {
+  display: flex;
 }
 
+.navigation__list {
+  display: flex;
+  justify-content: space-around;
+}
