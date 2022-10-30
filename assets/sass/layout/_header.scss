@@ -20,11 +20,9 @@
     font-size: 3rem;
     font-weight: 400;
     letter-spacing: 35px;
-    animation-name: slidein ;
+    animation-name: slidein;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-
-    
   }
 
   &--second {
@@ -33,18 +31,19 @@
     font-size: 2rem;
     letter-spacing: 30px;
     margin-top: 2rem;
-    animation-name: slidein ;
+    animation-name: slidein;
     animation-duration: 2s;
-    animation-timing-function: ease-out
-    
+    animation-timing-function: ease-out;
   }
 }
 
 @keyframes slidein {
-    from {
-        transform: translateX(-100%);
-      }
-      to {
-        transform: translateX(0%);
-      }
+  from {
+    transform: translateX(-100%);
   }
+  to {
+    transform: translateX(0%);
+  }
+}
+
+

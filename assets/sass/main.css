@@ -33,20 +33,22 @@
   align-items: center;
 }
 .navigation__link:link, .navigation__link:visited {
+  padding: 3px;
   display: flex;
   text-decoration: none;
   line-height: 5rem;
   text-transform: uppercase;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 300;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #fff;
   top: 1.5rem;
   right: 1.1rem;
   cursor: pointer;
-  background-image: linear-gradient(150deg, transparent, transparent 50%, #fff 50%);
+  background-image: linear-gradient(90deg, transparent, transparent 50%, #fff 50%);
   background-size: 300%;
   transition: all 0.4s;
+  border-radius: 100px;
 }
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
@@ -135,4 +137,34 @@ body {
   font-weight: 400;
   /*font-size: 16px;*/
   line-height: 1.7;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  border-radius: 100px;
+  border: none;
+  margin-top: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.bnt:active {
+  transform: translate(-1px);
+  box-shadow: 0 5px 10px, rgba(0, 0, 0, 0.2);
+}
+
+.btn--white {
+  background-color: #FD841F;
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
