@@ -1,32 +1,29 @@
 .btn:link,
 .btn:visited {
-   display: inline-block;
-   padding: 1.5rem 2rem;
-   border-radius: 200px;
-   border: none;
-   margin-top: 6rem;
-   text-transform: uppercase;
-   letter-spacing: 0.5rem;
-   text-decoration: none;
-   font-size: 1.2rem;
-   font-weight: 300;
-   font-family: sans-serif;
-
-
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  border-radius: 200px;
+  border: none;
+  margin-top: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: sans-serif;
 }
 
-.btn:hover{
-    transform: translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
-
 
 .bnt:active {
-    transform: translate(-1px);
-    box-shadow: 0 5px 10px,rgba(0,0,0,0.2);
+  transform: translate(-1px);
+  box-shadow: 0 5px 10px, rgba(0, 0, 0, 0.2);
 }
 
 .btn--white {
-    background-color:#FD841F;
-    color:#fff;
+  background-color: #fd841f;
+  color: #fff;
 }
