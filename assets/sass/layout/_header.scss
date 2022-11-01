@@ -87,13 +87,13 @@
 .heading-forth {
   display: inline-block;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   align-items: center;
   height: 160px;
   width: 160px;
   margin-top: 8rem;
-  margin-left: -20rem;
-  margin-right: -15rem;
+  margin-left: -61rem;
+  
 
   &--out {
     display: inline-block;
@@ -150,7 +150,7 @@ circle {
 
 svg {
   position: absolute;
-  left: 1.7rem;
+  left: 2.3rem;
   top: 33rem;
   background-size: auto;
 }
