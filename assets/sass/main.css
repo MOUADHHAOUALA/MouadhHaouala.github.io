@@ -155,16 +155,20 @@
 }
 */
 .heading-forth {
+  display: inline-block;
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   height: 160px;
   width: 160px;
   margin-top: 8rem;
-  margin-left: -15rem;
+  margin-left: -20rem;
+  margin-right: -15rem;
 }
 .heading-forth--out {
-  margin-left: 1.5rem;
+  display: inline-block;
+  margin-right: -2.5rem;
+  margin-left: 3rem;
   background-color: #fff;
   height: 180px;
   width: 180px;
@@ -184,6 +188,14 @@
 
 #number {
   color: red;
+}
+
+#svg {
+  height: 600px;
+  width: 600px;
+  align-items: center;
+  margin-left: 30rem;
+  margin-top: -20rem;
 }
 
 *,
