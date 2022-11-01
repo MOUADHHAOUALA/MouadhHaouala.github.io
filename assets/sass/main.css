@@ -168,7 +168,7 @@
 .heading-forth--out {
   display: inline-block;
   margin-right: -2.5rem;
-  margin-left: 3rem;
+  margin-left: 5.7rem;
   background-color: #fff;
   height: 160px;
   width: 160px;
@@ -187,7 +187,10 @@
 }
 
 #number {
-  color: red;
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #fd841f;
 }
 
 #svg {
@@ -210,8 +213,7 @@ circle {
 
 svg {
   position: absolute;
-  left: 7.1rem;
-  right: 7.1rem;
+  left: 1.7rem;
   top: 33rem;
   background-size: auto;
 }
