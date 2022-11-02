@@ -192,6 +192,20 @@
   color: #fd841f;
 }
 
+#number1 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #fd841f;
+}
+
+#number2 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #fd841f;
+}
+
 #svg {
   height: 600px;
   width: 600px;
