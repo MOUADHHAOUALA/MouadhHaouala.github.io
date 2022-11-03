@@ -87,3 +87,47 @@
     margin-top: 3.5rem;
   }
 }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card {
+  height: 50rem;
+  margin-right: 6rem;
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  position: relative;
+ 
+
+  &__side {
+    height: 50rem;
+    position: absolute;
+    color: #fff;
+    font-size: 1.5rem;
+    top: 0;
+    left: 0;
+    
+    backface-visibility: hidden;
+    transition: all 0.8s ease;
+
+    &--front {
+      background-color:blue;
+    }
+
+    &--back {
+      background-color: green;
+      transform: rotateY(180deg);
+    }
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+}
