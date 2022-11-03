@@ -1,9 +1,13 @@
 @import "layout/navigation";
 @import "layout/header";
 @import "base/base";
+@import "base/animations";
+
+
 @import "base/typography";
 @import "abstracts/variables";
 
 @import "components/button";
+@import "components/mainsection.";
 
 @import "pages/home";

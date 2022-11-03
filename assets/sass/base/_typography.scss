@@ -1,9 +1,53 @@
 body {
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    /*font-size: 16px;*/
-    line-height: 1.7;
-    //color: $color-grey-dark;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  line-height: 1.7;
+  //color: $color-grey-dark;
 }
 
+#number {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #fd841f;
+}
 
+#number1 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #fd841f;
+}
+
+#number2 {
+  font-size: 2rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #fd841f;
+}
+
+#svg {
+  height: 600px;
+  width: 600px;
+  align-items: center;
+  //background-color: black;
+  margin-left: 65rem;
+  margin-top: -30rem;
+}
+
+circle {
+  fill: none;
+  stroke: url(#GradientColor);
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: animation 2s linear forwards;
+}
+
+svg {
+  position: absolute;
+  left: 2.3rem;
+  top: 33rem;
+  background-size: auto;
+}
