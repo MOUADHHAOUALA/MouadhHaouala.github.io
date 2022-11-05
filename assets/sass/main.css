@@ -314,20 +314,20 @@ svg {
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  transition: all 0.8s ease;
+  transition: all 1s ease;
   overflow: hidden;
 }
 .card__side--front {
   background-color: #fff;
 }
 .card__side--front-1 {
-  background-image: linear-gradient(to right, #DEF5E5, #BCEAD5);
+  background-image: linear-gradient(to right, #def5e5, #bcead5);
 }
 .card__side--back {
-  transform: rotateY(180deg);
+  transform: rotateY(-180deg);
 }
 .card__side--back-1 {
-  background-image: linear-gradient(to right, #DEF5E5, #BCEAD5);
+  background-image: linear-gradient(to right, #def5e5, #bcead5);
 }
 .card:hover .card__side--front {
   transform: rotateY(180deg);
@@ -376,9 +376,37 @@ svg {
   font-size: 1.5rem;
   font-weight: 500;
   font-family: sans-serif;
+  text-transform: capitalize;
 }
 .card__details ul li:not(:last-child) {
   border-bottom: 1px solid #a62349;
+}
+
+.card__cta {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card__cta-p1 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin-top: 10rem;
+  text-transform: uppercase;
+  color: #fd841f;
+  border-bottom: 1px solid #a62349;
+}
+.card__cta__project-live {
+  margin-top: 30rem;
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fd841f;
+}
+.card__cta__project-code {
+  text-decoration: none;
+  font-size: 2rem;
+  color: #fd841f;
 }
 
 .container {
