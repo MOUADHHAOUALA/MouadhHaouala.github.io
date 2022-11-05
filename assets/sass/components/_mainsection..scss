@@ -95,14 +95,12 @@
 }
 
 .card {
-  
   height: 52rem;
   margin-right: -15rem;
   margin-left: -15rem;
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
- 
 
   &__side {
     width: 100%;
@@ -112,21 +110,24 @@
     top: 0;
     left: 0;
     border-radius: 10px;
-    box-shadow: 0 1.5rem 4rem rgba(black,0.15);
+    box-shadow: 0 1.5rem 4rem rgba(black, 0.15);
     backface-visibility: hidden;
     transition: all 0.8s ease;
     overflow: hidden;
 
     &--front {
-      background-color:#fff;
+      background-color: #fff;
+
+      &-1 {
+        background-image: linear-gradient(to right, #DEF5E5, #BCEAD5);
+      }
     }
 
     &--back {
       transform: rotateY(180deg);
 
-
       &-1 {
-        background-image: linear-gradient(to right , #fd841f, #a62349);
+        background-image: linear-gradient(to right, #DEF5E5, #BCEAD5);
       }
     }
   }
@@ -140,15 +141,14 @@
   }
 
   &__picture {
-   background-size: cover;
-   height: 30rem;
-   -webkit-clip-path: circle(62.4% at 50% 52%);
-   clip-path: circle(62.4% at 50% 52%);
-   
+    margin-left: -2rem;
+    background-size: cover;
+    height: 31rem;
+    -webkit-clip-path: circle(62.4% at 50% 52%);
+    clip-path: circle(62.4% at 50% 52%);
 
     &-1 {
-      background-image: url(/assets/images/shopping-cart-g61dd02fc9_1280.png);
-
+      background-image: url(/assets/images/E-Commerce-Shopping-Transparent-Background.png);
     }
   }
 
@@ -168,35 +168,28 @@
       font-weight: 400;
       font-family: sans-serif;
       letter-spacing: 0.2rem;
-    
     }
-    
   }
 
   &__details {
     color: black;
     display: flex;
     flex-direction: column;
-   
-    
-    align-items: center;
-   ul {
-    list-style: none;
-    width: 80%;
 
-    li {
-      font-size: 1.5rem;
-      font-weight: 500;
-      font-family: sans-serif;
-      
-      &:not(:last-child) {
-        border-bottom: 1px solid #a62349;
+    align-items: center;
+    ul {
+      list-style: none;
+      width: 80%;
+
+      li {
+        font-size: 1.5rem;
+        font-weight: 500;
+        font-family: sans-serif;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid #a62349;
+        }
       }
     }
-
-   }
-
   }
-
- 
 }
