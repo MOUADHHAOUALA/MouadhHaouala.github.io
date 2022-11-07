@@ -407,6 +407,16 @@ svg {
           animation-timing-function: ease-out;
 }
 
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.contact {
+  color: black;
+  display: flex;
+}
 /*
   &--out {
     display: inline-block;
@@ -471,7 +481,7 @@ svg {
 .section-about {
   background-color: #61764B;
   padding: 25rem 0rem;
-  margin-top: -8vh;
+  margin-top: -10vh;
   display: flex;
   position: relative;
 }
@@ -479,5 +489,11 @@ svg {
 .section-myproject {
   background-color: #61764B;
   padding: 25rem 0rem 50rem 0rem;
-  margin-top: -35vh;
+  margin-top: -38vh;
+}
+
+.section-contact {
+  background-color: #432C7A;
+  padding: 25rem 0rem 50rem 0rem;
+  margin-top: -40vh;
 }/*# sourceMappingURL=main.css.map */
