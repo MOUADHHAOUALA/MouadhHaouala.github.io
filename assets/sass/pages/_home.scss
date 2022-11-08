@@ -36,6 +36,10 @@
 }
 
 .section-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: linear-gradient(to right bottom, #61764B,#61764B);
   padding: 15rem 0rem ;
   margin-top: -40vh;
@@ -43,15 +47,11 @@
 }
 
 .contact {
-  background-image: linear-gradient(to right, #E14D2A,#FD841F);
+  //background-image: linear-gradient(to right, #E14D2A,#FD841F);
   background-size: cover;
   height: 25rem;
   background-size: 100%;
   border-radius: 3px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+ 
 }
 
