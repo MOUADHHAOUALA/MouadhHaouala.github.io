@@ -15,15 +15,23 @@
 
   &__list {
     display: flex;
-    align-self: stretch;
-    align-items: center;
-    padding: 0 4rem;
+    flex-direction: row;
+    padding: 1px 0rem;
+    list-style: none;
+    width: 600px;
+    margin-right: 5rem;
+    border-radius: 25px;
+    border: 0.1px solid #61764B ;
+    background-color:  #fd841f;
+    box-shadow: 0 4px 8px 0 #fff 0 6px 2px 0 rgba(0,0,0,0.19);
   }
   &__item {
     padding: 0 2rem;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    
   }
 
   &__link {
@@ -51,12 +59,14 @@
       transition: all 0.4s;
       border-radius: 100px;
     }
-
+/*
     &:hover,
     &:active {
       background-position: 100%;
       color: #e14d2a;
       transform: translateY(1rem);
     }
+    */
+    
   }
 }
