@@ -8,13 +8,14 @@
   font-weight: 500;
   margin-top: -25vh;
   font-family:'Poppins', sans-serif;
+  display: block;
 
   span {
+    letter-spacing: 0.5rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
-    margin-inline-start: -38rem;
-    margin-top: 5rem;
+    margin-left: 4rem;
+    margin-top: -2rem;
     font-size: 3.5rem;
     font-weight: 500;
     color: #fd841f;
@@ -53,8 +54,8 @@
 }
 
 .card {
-  height: 52rem;
-  width: 27rem;
+  height: 60rem;
+  width: 25rem;
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
@@ -64,12 +65,12 @@
 
   &__side {
     width: 100%;
-    height: 47.5rem;
+    height: 45rem;
     position: absolute;
     font-size: 1.5rem;
     top: 0;
     left: 0;
-    border-radius: 15px;
+    border-radius: 50px;
     box-shadow: 0 1.5rem 4rem rgba(black, 0.15);
     backface-visibility: hidden;
     transition: all 1s ease;
@@ -124,7 +125,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      font: 2.5rem;
+      font-size: 1.5rem;
       font-weight: 400;
       font-family: sans-serif;
       letter-spacing: 0.2rem;
@@ -142,7 +143,7 @@
       width: 80%;
 
       li {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: 500;
         font-family: sans-serif;
         text-transform: capitalize;
@@ -193,7 +194,7 @@
   font-size: 3rem;
   font-weight: 400;
   font-family: sans-serif;
-  color: #fff;
+  color: #fd841f;
   text-transform: uppercase;
   letter-spacing: 3.5rem;
   animation-name: slidein;
