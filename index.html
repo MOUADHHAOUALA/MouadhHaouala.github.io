@@ -8,6 +8,10 @@
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/sass/main.css" />
 
     <title>Document</title>
@@ -18,31 +22,33 @@
         <h1 class="navigation__logo">Mouadh Haouala</h1>
         <ul class="navigation__list">
           <li class="navigation__item"></li>
-          <a href="#" class="navigation__link">Home Page</a>
+          <a href="#section-1" class="navigation__link">Home Page</a>
           <li class="navigation__item"></li>
-          <a href="#" class="navigation__link">About Me</a>
+          <a href="#section-2" class="navigation__link">About Me</a>
           <li class="navigation__item"></li>
-          <a href="#" class="navigation__link">My Projects</a>
+          <a href="#section-3" class="navigation__link">My Projects</a>
           <li class="navigation__item"></li>
-          <a href="#" class="navigation__link">Contact Me</a>
+          <a href="#" class="navigation__link navigation__link--btn btn--white"
+            >Contact Me</a
+          >
         </ul>
       </nav>
 
-      <header class="header">
+      <header class="header" id="section-1">
         <div class="header__text-box">
           <h1 class="heading-primary">
             <span class="heading-primary--main">portfolio website </span>
             <span class="heading-primary--second">Build for future work </span>
           </h1>
 
-          <a href="#" class="btn btn--white btn--animated"
-            >Explore My projects &rarr;</a
+          <a href="#section-3-1" class="btn btn--white btn--animated"
+            >Explore My projects &darr;</a
           >
         </div>
       </header>
 
       <main>
-        <section class="section-about">
+        <section class="section-about" id="section-2">
           <h2 class="heading-secondary">
             My Name is Mouadh Haouala <span>I'm a web developer</span>
           </h2>
@@ -62,8 +68,8 @@
           </div>
         </section>
 
-        <section class="section-myproject">
-          <h6 class="name">My Projects</h6>
+        <section class="section-myproject" id="section-3">
+          <h6 class="name" id="section-3-1">My Projects</h6>
           <div class="flex">
             <div class="flex-row">
               <div class="card">
@@ -91,7 +97,7 @@
               </div>
             </div>
 
-            <div class="flex-row">
+            <div class="flex-row" id="section-4">
               <div class="card">
                 <div class="card__side card__side--front card__side--front-1">
                   <div class="card__picture card__picture-1">&nbsp;</div>
