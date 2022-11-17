@@ -340,6 +340,9 @@ svg {
   border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.5);
   border: none;
+  border-bottom: 3px solid transparent;
+  width: 90%;
+  display: block;
 }
 .form__input:focus {
   outline: none;
@@ -532,8 +535,8 @@ svg {
 }
 
 .contact {
-  background-size: cover;
-  height: 25rem;
+  background-image: linear-gradient(to right, #E14D2A, #FD841F);
+  height: 50rem;
   background-size: 100%;
   border-radius: 3px;
 }/*# sourceMappingURL=main.css.map */
