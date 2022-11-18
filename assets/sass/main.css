@@ -137,7 +137,7 @@ body {
   }
 }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   /*font-size: 16px;*/
   line-height: 1.7;
@@ -263,6 +263,7 @@ svg {
   margin-top: -25vh;
   font-family: "Poppins", sans-serif;
   display: block;
+  position: absolute;
 }
 .heading-secondary span {
   letter-spacing: 0.5rem;
@@ -275,23 +276,19 @@ svg {
   color: #fd841f;
 }
 
-/*
-  .heading-third {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 6rem;
-    font-size: 2.5rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: sans-serif;
-    color: #fff;
-    text-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-  }
-  */
+.heading-thrid--p {
+  display: block;
+  margin-left: 5rem;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+}
+
 .heading-forth {
-  display: inline-block;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -371,7 +368,7 @@ svg {
 }
 
 .card {
-  height: 60rem;
+  height: 50rem;
   width: 25rem;
   perspective: 150rem;
   -moz-perspective: 150rem;
