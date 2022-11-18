@@ -10,10 +10,12 @@
 
   &__logo {
     text-transform: uppercase;
-    text-decoration: solid;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
     height: 4.5rem;
     margin-left: 2rem;
-    color: #fff;
+    color: #fd841f;
   }
 
   &__list {

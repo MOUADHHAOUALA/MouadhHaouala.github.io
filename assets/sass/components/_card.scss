@@ -1,148 +1,149 @@
 .card {
-    height: 50rem;
-    width: 25rem;
-    perspective: 150rem;
-    -moz-perspective: 150rem;
-    position: relative;
-    animation-name: slidein;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
-  
-    &__side {
-      width: 100%;
-      height: 45rem;
-      position: absolute;
-      font-size: 1.5rem;
-      top: 0;
-      left: 0;
-      border-radius: 50px;
-      box-shadow: 0 1.5rem 4rem rgba(black, 0.15);
-      backface-visibility: hidden;
-      transition: all 1s ease;
-      overflow: hidden;
-  
-      &--front {
-        background-color: #fff;
-  
-        &-1 {
-          background-image: linear-gradient(to right, #def5e5, #bcead5);
-        }
-      }
-  
-      &--back {
-        transform: rotateY(-180deg);
-  
-        &-1 {
-          background-image: linear-gradient(to right, #def5e5, #bcead5);
-        }
-      }
-    }
-  
-    &:hover &__side--front {
-      transform: rotateY(180deg);
-    }
-  
-    &:hover &__side--back {
-      transform: rotateY(0);
-    }
-  
-    &__picture {
-      margin-left: -2rem;
-      background-size: cover;
-      height: 25rem;
-      -webkit-clip-path: circle(62.4% at 50% 52%);
-      clip-path: circle(62.4% at 50% 52%);
-  
+  height: 50rem;
+  width: 23rem;
+  perspective: 150rem;
+  margin: 1.5rem;
+  -moz-perspective: 150rem;
+  position: relative;
+  animation-name: slidein;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+
+  &__side {
+    width: 100%;
+    height: 45rem;
+    position: absolute;
+    font-size: 1.5rem;
+    top: 0;
+    left: 0;
+    border-radius: 50px;
+    box-shadow: 0 1.5rem 4rem rgba(black, 0.15);
+    backface-visibility: hidden;
+    transition: all 1s ease;
+    overflow: hidden;
+
+    &--front {
+      background-color: #fff;
+
       &-1 {
-        background-image: url(/assets/images/E-Commerce-Shopping-Transparent-Background.png);
+        background-image: linear-gradient(to right, #def5e5, #bcead5);
       }
     }
-  
-    &__heading {
-      margin-top: 3rem;
-      font-size: 2rem;
-      font-weight: 300;
-      text-transform: uppercase;
-      color: black;
-  
-      &-span {
-        color: #fd841f;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        font-size: 1.5rem;
-        font-weight: 400;
-        font-family: sans-serif;
-        letter-spacing: 0.2rem;
+
+    &--back {
+      transform: rotateY(-180deg);
+
+      &-1 {
+        background-image: linear-gradient(to right, #def5e5, #bcead5);
       }
     }
-  
-    &__details {
-      color: black;
+  }
+
+  &:hover &__side--front {
+    transform: rotateY(180deg);
+  }
+
+  &:hover &__side--back {
+    transform: rotateY(0);
+  }
+
+  &__picture {
+    margin-left: -2rem;
+    background-size: cover;
+    height: 25rem;
+    -webkit-clip-path: circle(62.4% at 50% 52%);
+    clip-path: circle(62.4% at 50% 52%);
+
+    &-1 {
+      background-image: url(/assets/images/E-Commerce-Shopping-Transparent-Background.png);
+    }
+  }
+
+  &__heading {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: black;
+
+    &-span {
+      color: #fd841f;
       display: flex;
       flex-direction: column;
-  
       align-items: center;
-      ul {
-        list-style: none;
-        width: 80%;
-  
-        li {
-          font-size: 1.2rem;
-          font-weight: 500;
-          font-family: sans-serif;
-          text-transform: capitalize;
-  
-          &:not(:last-child) {
-            border-bottom: 1px solid #a62349;
-          }
+      font-size: 1.5rem;
+      font-weight: 400;
+      font-family: sans-serif;
+      letter-spacing: 0.2rem;
+    }
+  }
+
+  &__details {
+    color: black;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    ul {
+      list-style: none;
+      width: 80%;
+
+      li {
+        font-size: 1.2rem;
+        font-weight: 500;
+        font-family: sans-serif;
+        text-transform: capitalize;
+
+        &:not(:last-child) {
+          border-bottom: 1px solid #a62349;
         }
       }
     }
   }
-  
-  .card__cta {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  
-    &-p1 {
-      font-size: 2rem;
-      font-weight: 600;
-      font-family: sans-serif;
-      margin-top: 10rem;
-      text-transform: uppercase;
-      color: #fd841f;
-      border-bottom: 1px solid #a62349;
-    }
-  
-    &__project-live {
-      margin-top: 15rem;
-      text-decoration: none;
-      font-size: 2rem;
-      color: #fd841f;
-    }
-  
-    &__project-code {
-      text-decoration: none;
-      font-size: 2rem;
-      color: #fd841f;
-    }
-  }
-  
-  .name {
-    margin-bottom: 5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    font-size: 3rem;
-    font-weight: 400;
+}
+
+.card__cta {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &-p1 {
+    font-size: 2rem;
+    font-weight: 600;
     font-family: sans-serif;
-    color: #fd841f;
+    margin-top: 10rem;
     text-transform: uppercase;
-    letter-spacing: 3.5rem;
-    animation-name: slidein;
-    animation-duration: 1s;
-    animation-timing-function: ease-out;
+    color: #fd841f;
+    border-bottom: 1px solid #a62349;
   }
+
+  &__project-live {
+    margin-top: 15rem;
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fd841f;
+  }
+
+  &__project-code {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #fd841f;
+  }
+}
+
+.name {
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #fd841f;
+  text-transform: uppercase;
+  letter-spacing: 3.5rem;
+  animation-name: slidein;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
