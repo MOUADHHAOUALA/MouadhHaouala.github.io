@@ -23,8 +23,6 @@
     box-shadow: 2rem 0rem 4rem rgba(#fd841f, 0.15);
     border-radius: 50px;
     padding: 0 2rem;
-    
-  
   }
 }
 
@@ -50,19 +48,29 @@
 
 .heading-forth {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin-top: 8rem;
   margin-left: -61rem;
+
+  &--p1 {
+    margin-top: 15rem;
+    margin-right: 80rem;
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    color: #fd841f;
+    letter-spacing: 0.2rem;
+    border-bottom: 1px solid #a62349;
+  }
 }
 
 .flex {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  
 }
-
 
 /*
   &--out {

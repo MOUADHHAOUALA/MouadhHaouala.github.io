@@ -159,7 +159,7 @@ body {
   width: 600px;
   align-items: center;
   margin-left: 70rem;
-  margin-top: -25rem;
+  margin-top: -50rem;
 }
 
 /*
@@ -311,10 +311,21 @@ svg {
 
 .heading-forth {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   margin-top: 8rem;
   margin-left: -61rem;
+}
+.heading-forth--p1 {
+  margin-top: 15rem;
+  margin-right: 80rem;
+  font-size: 3.5rem;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #fd841f;
+  letter-spacing: 0.2rem;
+  border-bottom: 1px solid #a62349;
 }
 
 .flex {
@@ -560,7 +571,7 @@ svg {
 .section-myproject {
   background-color: #393e46;
   padding: 25rem 0rem 50rem 0rem;
-  margin-top: -38.5vh;
+  margin-top: -30vh;
 }
 
 .section--sign-up {
