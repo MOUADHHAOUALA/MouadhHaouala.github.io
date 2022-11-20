@@ -159,7 +159,7 @@ body {
   width: 600px;
   align-items: center;
   margin-left: 70rem;
-  margin-top: -50rem;
+  margin-top: -65rem;
 }
 
 /*
@@ -376,6 +376,25 @@ svg {
     margin-top: 3.5rem;
   }
   */
+.heading-forth--skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -38rem;
+  margin-top: 5rem;
+  gap: 1rem;
+}
+.heading-forth--skill i {
+  font-size: 5rem;
+}
+.heading-forth--skill img {
+  width: 3rem;
+}
+.heading-forth--skill .disable {
+  filter: blur(3px) grayscale(0.9);
+}
+
 .section--sign-up .section__header {
   color: #fff;
   text-align: center;

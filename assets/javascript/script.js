@@ -12,7 +12,7 @@ document
   });
 
 const btnScrollTo = document.querySelector(".btn--scroll-to");
-const section1 = document.querySelector("#section-3");
+const section1 = document.querySelector("#section-3-1");
 
 btnScrollTo.addEventListener("click", function (e) {
   const s1coords = section1.getBoundingClientRect();
