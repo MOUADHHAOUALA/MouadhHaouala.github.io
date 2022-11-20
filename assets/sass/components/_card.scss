@@ -8,6 +8,8 @@
   animation-name: slidein;
   animation-duration: 2s;
   animation-timing-function: ease-out;
+  filter: blur(3px)grayscale(0.9);
+  
 
   &__side {
     width: 100%;
@@ -21,6 +23,7 @@
     backface-visibility: hidden;
     transition: all 1s ease;
     overflow: hidden;
+    
 
     &--front {
       background-color: #fff;

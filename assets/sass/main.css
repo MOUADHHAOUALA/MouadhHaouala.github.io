@@ -334,6 +334,25 @@ svg {
   justify-content: center;
 }
 
+.heading-forth--skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: -25rem;
+  margin-top: 5rem;
+  gap: 1rem;
+}
+.heading-forth--skill i {
+  font-size: 5rem;
+}
+.heading-forth--skill img {
+  width: 4rem;
+}
+.heading-forth--skill .disable {
+  filter: blur(3px) grayscale(0.9);
+}
+
 /*
   &--out {
     display: inline-block;
@@ -376,25 +395,6 @@ svg {
     margin-top: 3.5rem;
   }
   */
-.heading-forth--skill {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-left: -25rem;
-  margin-top: 5rem;
-  gap: 1rem;
-}
-.heading-forth--skill i {
-  font-size: 5rem;
-}
-.heading-forth--skill img {
-  width: 4rem;
-}
-.heading-forth--skill .disable {
-  filter: blur(3px) grayscale(0.9);
-}
-
 .section--sign-up .section__header {
   color: #fff;
   text-align: center;
@@ -431,6 +431,7 @@ svg {
           animation-duration: 2s;
   -webkit-animation-timing-function: ease-out;
           animation-timing-function: ease-out;
+  filter: blur(3px) grayscale(0.9);
 }
 .card__side {
   width: 100%;
