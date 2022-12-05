@@ -35,7 +35,9 @@
           <li class="navigation__item"></li>
           <a href="#section-3" class="navigation__link">My Projects</a>
           <li class="navigation__item"></li>
-          <a href="#" class="navigation__link navigation__link--btn btn--white"
+          <a
+            href="#"
+            class="navigation__link navigation__link--btn btn--white btn--show-modal"
             >Contact Me</a
           >
         </ul>
@@ -312,7 +314,7 @@
               For more information and future work please! Contact me
             </h3>
           </div>
-          <button class="btn btn--white btn-show-model">
+          <button class="btn btn--white btn--show-modal">
             Contact Me now for more
           </button>
         </section>
@@ -363,9 +365,11 @@
             <input type="text" />
             <label>Email Adress</label>
             <input type="email" />
-            <label>Message</label>
+            <label class="modal__form--message">Message</label>
             <input type="text" />
-            <button class="btn">Send Now &rarr;</button>
+            <button class="navigation__link--btn btn--white">
+              Send Now &rarr;
+            </button>
           </form>
         </div>
         <div class="overlay hide"></div>
