@@ -1,5 +1,7 @@
 "use strict";
 
+
+
 document
   .querySelector(".navigation__list")
   .addEventListener("click", function (e) {
