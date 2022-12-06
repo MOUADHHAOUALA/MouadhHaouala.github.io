@@ -6,27 +6,25 @@
   width: 100%;
   padding: 0 6rem;
 
-
   &__logo {
     text-transform: uppercase;
     text-decoration: none;
-    font-weight: 700;
-    font-family: 'Poppins', sans-serif;
-    height: 4.5rem;
+    font-weight: 900;
+    font-size: 3.2rem;
+    font-family: "Poppins", sans-serif;
+    height: 5.5rem;
     margin-left: 2rem;
     color: #fd841f;
   }
 
   &__list {
-   display: flex;
-   align-items: center;
-   list-style: none;
-   
+    display: flex;
+    align-items: center;
+    list-style: none;
   }
   &__item {
     margin-left: 3.5rem;
     margin-right: 1.5rem;
-    
   }
 
   &__link {
@@ -34,13 +32,13 @@
     &:visited {
       font-size: 1.5rem;
       font-weight: 500;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
       color: #fff;
       text-decoration: none;
       display: block;
       transition: all 0.3;
     }
-/*
+    /*
     &:hover,
     &:active {
       background-position: 100%;
@@ -48,6 +46,5 @@
       transform: translateY(1rem);
     }
     */
-    
   }
 }
