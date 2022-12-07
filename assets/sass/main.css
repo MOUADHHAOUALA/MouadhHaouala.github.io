@@ -457,7 +457,6 @@ svg {
 .modal__header span {
   color: #fd841f;
   font-family: "Poppins", sans-serif;
-  text-transform: capitalize;
 }
 
 .modal__form {
@@ -501,6 +500,25 @@ svg {
 .hide {
   visibility: hidden;
   opacity: 0;
+}
+
+.btn__form {
+  display: inline-block;
+  padding: 1.5rem 2rem;
+  border-radius: 200px;
+  border: none;
+  margin-top: 6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn--white-form {
+  background-color: #fd841f;
+  color: #fff;
 }
 
 .card {
