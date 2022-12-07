@@ -451,6 +451,13 @@ svg {
   font-size: 3.5rem;
   margin-bottom: 4.5rem;
   line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+.modal__header span {
+  color: #fd841f;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
 }
 
 .modal__form {
@@ -470,7 +477,7 @@ svg {
   font-size: 1.7rem;
   padding: 1rem 1.5rem;
   border: 1px solid #ddd;
-  border-radius: 0.5rem;
+  border-radius: 3rem;
 }
 
 .modal__form button {
