@@ -4,6 +4,7 @@ const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".btn--close-modal");
 const btnsOpenModal = document.querySelectorAll(".btn--show-modal");
+const section2 = document.querySelector("#section-2");
 
 const openModal = function (e) {
   e.preventDefault();
@@ -43,10 +44,10 @@ document
   });
 
 const btnScrollTo = document.querySelector(".btn--scroll-to");
-const section1 = document.querySelector("#section-3-1");
+const section3 = document.querySelector("#section-3");
 
 btnScrollTo.addEventListener("click", function (e) {
-  const s1coords = section1.getBoundingClientRect();
+  const s1coords = section3.getBoundingClientRect();
   console.log(s1coords);
 
   /* window.scrollTo(
@@ -61,5 +62,12 @@ btnScrollTo.addEventListener("click", function (e) {
     });
     */
 
-  section1.scrollIntoView({ behavior: "smooth" });
+  section3.scrollIntoView({ behavior: "smooth" });
+});
+
+const initcords = section2.getBoundingClientRect();
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY > initcords.top) navigation.classList.add("sticky");
+  else navigation.classList.remove("sticky");
 });
