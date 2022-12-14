@@ -507,11 +507,10 @@ svg {
   padding: 1.5rem 2rem;
   border-radius: 200px;
   border: none;
-  margin-top: 6rem;
   text-transform: uppercase;
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 2rem;
   font-weight: 300;
   font-family: "Poppins", sans-serif;
 }
