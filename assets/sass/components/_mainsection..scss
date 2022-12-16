@@ -50,8 +50,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 8rem;
-  margin-left: -61rem;
+  margin-top: 12rem;
+  margin-left: -60rem;
+  margin-right: 10rem;
   position: relative;
 
   &--p1 {
@@ -77,8 +78,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  
-  margin-left: -50rem;
+  flex-wrap: wrap;
+  margin-left: auto;
   margin-top: 25rem;
   gap: 1rem;
   position: absolute;
