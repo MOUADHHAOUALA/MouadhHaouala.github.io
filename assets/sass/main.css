@@ -346,6 +346,7 @@ svg {
   position: absolute;
 }
 .heading-forth--skill i {
+  position: relative;
   font-size: 5.5rem;
 }
 .heading-forth--skill img {
