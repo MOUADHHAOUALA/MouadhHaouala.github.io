@@ -339,14 +339,12 @@ svg {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   margin-left: -50rem;
   margin-top: 25rem;
   gap: 1rem;
   position: absolute;
 }
 .heading-forth--skill i {
-  position: relative;
   font-size: 5.5rem;
 }
 .heading-forth--skill img {
