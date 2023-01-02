@@ -343,7 +343,7 @@ svg {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  margin-left: -30rem;
+  margin-left: -25rem;
   margin-top: 25rem;
   gap: 1rem;
   position: absolute;
@@ -352,7 +352,11 @@ svg {
   font-size: 5.5rem;
 }
 .heading-forth--skill img {
-  width: 4rem;
+  width: 4.9rem;
+  font-size: 2rem;
+}
+.heading-forth--skill svg {
+  margin-left: -4rem;
 }
 .heading-forth--skill .disable {
   filter: blur(3px) grayscale(0.9);
