@@ -747,4 +747,8 @@ svg {
 .footer {
   padding: 10rem 3rem;
   background-color: #37383d;
+}
+
+.section-about, .section-myproject, .section-sign-up {
+  transition: all 0.5s ease-in-out;
 }/*# sourceMappingURL=main.css.map */
