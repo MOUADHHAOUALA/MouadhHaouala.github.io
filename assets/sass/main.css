@@ -347,6 +347,7 @@ svg {
   margin-left: -60rem;
   margin-right: 10rem;
   position: relative;
+  padding: 3rem;
 }
 .heading-forth--p1 {
   margin-top: 15rem;
@@ -365,6 +366,7 @@ svg {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .heading-forth--skill {
