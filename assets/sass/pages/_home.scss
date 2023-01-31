@@ -55,3 +55,47 @@
   transition: all 0.5s ease-in-out;
 }
 
+
+@media (max-width: 768px) {
+  .header {
+    height: 70vh;
+    padding: 5rem;
+  }
+
+  .header__text-box {
+    padding: 3rem;
+  }
+
+  .section-about {
+    padding: 15rem 0rem;
+  }
+
+  .section-myproject {
+    padding: 15rem 0rem 25rem 0rem;
+  }
+
+  .section-sign-up {
+    padding: 5rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    height: 60vh;
+    padding: 2rem;
+  }
+
+  .header__text-box {
+    padding: 2rem;
+  }
+
+  .section-about, .section-myproject, .section-sign-up {
+    padding: 10rem 0rem;
+  }
+
+  .footer {
+    padding: 5rem 1rem;
+  }
+}
+
+
