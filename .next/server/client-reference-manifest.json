@@ -40,14 +40,6 @@
         "async": false
       }
     },
-    "(app-client)/./components/about.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/about.tsx",
-        "name": "*",
-        "chunks": [],
-        "async": false
-      }
-    },
     "(app-client)/./components/contact.tsx": {
       "*": {
         "id": "(sc_client)/./components/contact.tsx",
@@ -59,6 +51,14 @@
     "(app-client)/./components/experience.tsx": {
       "*": {
         "id": "(sc_client)/./components/experience.tsx",
+        "name": "*",
+        "chunks": [],
+        "async": false
+      }
+    },
+    "(app-client)/./components/about.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/about.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -80,17 +80,17 @@
         "async": false
       }
     },
-    "(app-client)/./components/skills.tsx": {
+    "(app-client)/./components/intro.tsx": {
       "*": {
-        "id": "(sc_client)/./components/skills.tsx",
+        "id": "(sc_client)/./components/intro.tsx",
         "name": "*",
         "chunks": [],
         "async": false
       }
     },
-    "(app-client)/./components/intro.tsx": {
+    "(app-client)/./components/skills.tsx": {
       "*": {
-        "id": "(sc_client)/./components/intro.tsx",
+        "id": "(sc_client)/./components/skills.tsx",
         "name": "*",
         "chunks": [],
         "async": false
@@ -219,14 +219,6 @@
       ],
       "async": false
     },
-    "/Users/americafirst/Desktop/MouadhHaouala.github.io/components/about.tsx": {
-      "id": "(app-client)/./components/about.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "/Users/americafirst/Desktop/MouadhHaouala.github.io/components/contact.tsx": {
       "id": "(app-client)/./components/contact.tsx",
       "name": "*",
@@ -237,6 +229,14 @@
     },
     "/Users/americafirst/Desktop/MouadhHaouala.github.io/components/experience.tsx": {
       "id": "(app-client)/./components/experience.tsx",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "/Users/americafirst/Desktop/MouadhHaouala.github.io/components/about.tsx": {
+      "id": "(app-client)/./components/about.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
@@ -259,16 +259,16 @@
       ],
       "async": false
     },
-    "/Users/americafirst/Desktop/MouadhHaouala.github.io/components/skills.tsx": {
-      "id": "(app-client)/./components/skills.tsx",
+    "/Users/americafirst/Desktop/MouadhHaouala.github.io/components/intro.tsx": {
+      "id": "(app-client)/./components/intro.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
       ],
       "async": false
     },
-    "/Users/americafirst/Desktop/MouadhHaouala.github.io/components/intro.tsx": {
-      "id": "(app-client)/./components/intro.tsx",
+    "/Users/americafirst/Desktop/MouadhHaouala.github.io/components/skills.tsx": {
+      "id": "(app-client)/./components/skills.tsx",
       "name": "*",
       "chunks": [
         "app/page:static/chunks/app/page.js"
