@@ -31,7 +31,7 @@ export default function Intro() {
             }}
           >
             <Image
-              src="/mouadh.jpg"
+              src="/haouala1.jpeg"
               alt="Mouadh portrait"
               width="192"
               height="192"
