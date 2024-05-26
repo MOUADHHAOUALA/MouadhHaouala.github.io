@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import railarmorImg from "@/public/railarmor.png";
 import gamingImg from "@/public/gammin.png";
+import InsuranceImg from "@/public/insuranceV2.png"
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -62,11 +63,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "GamingFeed",
+    title: "RailArmorIQv2",
     description:
-      "I'm currently devloping a gaming dashboard for user gamming feedback and uses predictive modling.",
-    tags: ["React", "TypeScript", "Nest.js", "Machine learning", "Prisma"],
-    imageUrl: gamingImg,
+      "Redesigned and rebuilt the insurance application to improve performance and scalability",
+    tags: ["React", "TypeScript", "ExpressJs", "Docker Compose", "Prisma" ,"Antd pro"],
+    imageUrl: InsuranceImg,
   },
   {
     title: "RailArmorIQ",
